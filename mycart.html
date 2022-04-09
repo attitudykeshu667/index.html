@@ -1,0 +1,502 @@
+<!doctype  html>
+	<!DOCTYPE html>
+	<html>
+	<head>
+		<title> Mycart</title>
+
+		<style>
+			*{
+				margin: 0;
+				padding: 0;
+			}
+        .containterup{
+        
+        	width: 100%;
+        	height: 15vh;
+        	background-color: skyblue;
+        	margin-bottom: 1%;
+            position: fixed;
+
+        }
+        .containterup > h1{
+
+            margin-left:3%;
+        	color: white;
+        	font-size:6vh;
+
+
+        }
+         input{
+        	width: 100%;
+        	height: 5.5vh;
+        	font-size: 2vw;
+        	border: 1% solid grey;
+        	color: grey;
+        	position: fixed;
+        	margin-top: 2%;
+        	
+        	
+        }
+        input:hover{
+        	border: 1% solid black;
+
+        }
+
+        .products{
+        	display: flex;
+        	
+        	width: 100%;
+        	object-fit: fill;
+        	
+        	margin-top: 2%;
+        	padding-left:1.8%;
+        	position: fixed;
+        	background-color: white;
+}
+        .products img{
+        width: 5%; 
+        margin-left: 1%;
+        border: 2px solid white;
+
+
+        }
+        
+
+.products img:hover{
+       border: 2px solid skyblue;
+
+        }
+
+
+        .products > * {
+        	margin: 1%;
+        	display: block;
+        }
+
+ .shirts {
+  	display: flex;
+  	margin-top:10% ;
+
+ 
+  }
+  .shirts img:hover {
+       border: 2px solid skyblue;
+
+        }
+
+       
+        
+  .shirts img {
+  	width: 45%;
+  	border: 2px solid grey;
+  	margin: 2%;
+  	margin-bottom: 2%;
+
+ 
+  }
+
+
+  h2{
+
+  	font-size: 3vw;
+  	color: white;
+    text-align:center;
+    background-color: skyblue;
+    margin-bottom:5% ;
+
+    
+  }
+  h2:hover{
+  	background-color: tomato;
+  }
+
+  .tedy {
+  	display: flex;
+}
+   .tedy img {
+  	width: 27%;
+  	border: 2px solid grey;
+  	margin: 4%;
+  	margin-bottom: 2%;
+
+   }  
+   .tedy img:hover{
+   	 border: 2px solid skyblue;
+   }  
+
+
+
+
+ .shirtt img{
+   width:100%;
+   margin-top: auto;
+   margin-left: auto;
+   margin-bottom: 3%;
+
+
+}
+.shirts img:hover{
+       border: 2px solid skyblue;
+
+        }
+
+.smartwatch {
+	display: flex;
+	margin-top: 25vh;
+}
+
+.smartwatch img{
+	width: 22.5%;
+	border:2px solid grey; 
+	margin: 1%;
+}
+.smartwatch img:hover{
+   	 border: 2px solid skyblue;
+   }  
+
+
+.decorations img{
+	width: 100%;
+	margin-top: 10%;
+
+}
+
+.smalldeco{
+ display: flex;
+ margin-top: 15vh;
+
+}
+ .smalldeco img{
+ 	width: 27%;
+ 	margin: 3%;
+ 	border: 2px  solid grey;
+ }
+ .smalldeco img:hover{
+   	 border: 2px solid skyblue;
+   }  
+
+
+
+ .sarree {
+ 	display: flex;
+ 	margin-top: 15vh;
+
+ }
+ .sarree img{
+ 	width: 20%;
+ 	margin: 2%;
+ 	border: 2px solid grey;
+ }
+.sarree img:hover{
+   	 border: 2px solid skyblue;
+   }  
+
+
+.sofa {
+ 	display: flex;
+ 	margin-top: 25vh;
+
+ }
+ .sofa img{
+ 	width: 20%;
+ 	margin: 2%;
+ 	border: 2px solid grey;
+ }
+.sofa img:hover{
+   	 border: 2px solid skyblue;
+   }  
+
+.hph{
+ 	display: flex;
+ 	margin-top: 25vh;
+
+ }
+ .hph img {
+ 	width: 45%;
+ 	margin: 2%;
+ 	border: 2px solid grey;
+ }
+.hph img:hover{
+   	 border: 2px solid skyblue;
+   }  
+
+.fruits {
+ 	display: flex;
+ 	margin-top: 25vh;
+
+ }
+ .fruits img{
+ 	width: 20%;
+ 	margin: 2%;
+ 	border: 2px solid grey;
+
+}
+.fruits img:hover{
+   	 border: 2px solid skyblue;
+   }  
+
+
+.food{
+ display: flex;
+ margin-top: 15vh;
+
+}
+
+ .food img{
+ 	width: 27%;
+ 	margin: 3%;
+ 	border: 2px  solid grey;
+ }
+.food img:hover{
+   	 border: 2px solid skyblue;
+   }  
+
+
+.slide{
+	width: 80vw;
+	height: 80vh;
+	margin: 10%;
+	object-fit: contain;
+	animation-name: slides;
+	animation-duration: 15s;
+	animation-delay: 0.5s;
+	animation-iteration-count: infinite;
+	background-repeat: no-repeat;
+}
+
+@keyframes slides{
+	
+	 0%{
+
+       background-image: url( wp6360154-headphones-music-wallpapers.jpg);
+    }
+    30%{
+    	background-image: url(smartwarch.png);
+    }
+
+    70%{
+
+       background-image: url( wp6360154-headphones-music-wallpapers.jpg);
+    }
+    90%{
+
+       background-image: url( wp6360154-headphones-music-wallpapers.jpg);
+    }
+    100%{
+    	background-image: url(smartwarch.png);
+    }
+
+
+
+}
+h3{
+	text-align: center;
+	font-weight: bolder;
+	margin-top: 5% ;
+	margin-bottom: 5%;
+}
+
+h2 p{
+    font-size: 0.8rem;
+	color: green;
+	text-align: center;
+
+
+}
+h4{
+	color: grey;
+	text-align: center;
+	font-size: 5vw;
+	animation-name: mu;
+	animation-delay: 1s;
+	animation-duration: 30s;
+	animation-iteration-count: 1;
+
+}
+@keyframes mu{
+	0%{ color: grey;}
+	20%{ color: white;}
+	40%{ color: white;}
+	60%{ color: white;}
+	80%{ color: white;}
+	100%{ color: grey;}
+
+
+	}
+
+
+	</style>	
+	</head>
+	<body>
+	<div class="containterup">
+		<h1> Mycart
+
+			</h1>
+	
+		
+	</div>
+<br><br>
+		<form>
+<input type="search" value="Search for products"/>
+</form>
+<br><br>
+<div class=" products">
+
+	<img src=" 172155.png">
+
+	<img src="42641880.jpg  ">
+
+
+
+	<img src=" round-neck-t-shirt-500x500.jpg  ">
+
+	<img src="  IMG_20220408_100904.jpg ">
+
+	<img src="  teddy.jpg ">
+
+	<img src="1574444309-5dc1ccd2-0a3c-45f7-afab-2a36f6af674f-1-e73c43750a9a828f94092d2ee526bb99-1574444280.jpg   ">
+	<img src="  images.jpeg ">
+	<img src=" images (4).jpeg  ">
+	<img src="  dress2.jpg ">
+
+	
+	<img src="  photo-1608667508764-33cf0726b13a.jpeg ">
+	
+	<img src=" sofa-set8-500x500.JPG  ">
+	<img src="  shirt.jpg ">
+	<img src=" photo-1615485925600-97237c4fc1ec.jpeg  ">
+
+
+
+	
+</div>
+
+
+	<div class="slide"> </div>
+
+
+<h4> Wecome to Mycart ,  lets Shop!</h4>
+
+<div class="shirts">
+	<img src="slide_32.jpg ">
+	<img src="shirt.jpg ">
+
+</div>
+<h2> Men Casual Shirts
+<p> Up to 20% off</p></h2>	
+
+</div>
+
+
+
+<div class="shirtt">
+
+<img src="  photo-1523381294911-8d3cead13475.jpeg">
+
+</div>
+
+
+<div class=" tedy">
+	<img src=" soft-stuffed-pink-i-love-you-teddy-bear-30-nihan-enterprises-original-imafezdeu4qwgdxh.jpeg">
+	<img src="  teddy.jpg">
+	<img src="490960274-1.jpg">
+
+</div>
+
+
+<h2> Tedy bear gifts<p> Up to 10% off</p></h2>
+
+
+ <div class="smartwatch">
+ 	
+
+ 	<img src=" images (15).jpeg ">
+ 	<img src=" images (14).jpeg ">
+ 	<img src="IMG_20220408_100904.jpg  ">
+ 	<img src=" images (9).jpeg ">
+ </div>
+
+
+
+<h2> Smart watches <p> Up to 12% off</p></h2>
+
+<div class=" decorations">
+	
+<img src="   photo-1595935736128-db1f0a261263.jpeg">
+</div>
+
+
+<div class="smalldeco">
+	<img src="  photo-1601084881623-cdf9a8ea242c.jpeg">
+	<img src=" photo-1534349762230-e0cadf78f5da.jpeg ">
+	<img src=" photo-1572048572872-2394404cf1f3.jpeg ">
+
+</div>
+
+
+
+<h2> Home Decorations<p> Up to 16% off</p></h2>
+
+
+<div class="sarree">
+	<img src=" photo-1609748340878-c690e3e4706b.jpeg ">
+	<img src=" photo-1609748341932-f0206c09412b.jpeg ">
+	<img src=" photo-1610030468706-9a6dbad49b0a.jpeg ">
+    <img src="  photo-1610030469668-8e9f641aaf27.jpeg  ">
+</div>
+
+
+<h2>Multiple Colour Sarrees<p> Up to 17% off</p></h2>
+
+
+
+<div class=" sofa ">
+	<img src=" single-seater-sofa-chair-500x500.jpg ">
+	<img src=" sofa-set8-500x500.JPG ">
+	<img src="  chair-500x500.jpg">
+    <img src=" 42641880.jpg  ">
+</div>
+
+<h2> Sofas and Chairs <p> Up to 20% off</p> </h2>
+
+
+<div class=" hph ">
+	<img src=" photo-1636612680772-59425356da80.jpeg ">
+	<img src=" photo-1574494461754-de04dc403eec.jpeg ">
+	
+</div>
+
+
+<h2> Wireless Headphones <p> Up to 15% off</p> </h2>
+
+<div class="hph">
+<img src=" photo-1593121925328-369cc8459c08.jpeg">
+<img src=" photo-1563014959-7aaa83350992.jpeg">
+
+
+</div>
+<h2> Wired Headphones <p> Up to 20% off</p> </h2>
+
+
+<div class="fruits">
+	<img src=" photo-1615485925600-97237c4fc1ec.jpeg">
+	<img src=" photo-1615484477778-ca3b77940c25.jpeg ">
+	<img src=" photo-1634473235299-61c4fcaf2575.jpeg ">
+    <img src="   photo-1528821128474-27f963b062bf.jpeg ">
+</div>
+
+<h2> Fruites<p> Up to 12% off</p></h2>
+
+
+<div class =" food">
+	
+	<img src=" photo-1546069901-ba9599a7e63c.jpeg ">
+	<img src="  photo-1551266519-b6713933ebd6.jpeg">
+    <img src=" photo-1580822656752-1f113169c5fe.jpeg ">
+</div>
+<h2>Foods<p> Up to 10% off</p></h2>
+
+<h3>Thanks for your visit :)</h3>
+
+	</body>
+	</html>
